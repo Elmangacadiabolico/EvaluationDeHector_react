@@ -37,7 +37,7 @@ function Cards() {
       <input type="text"value={nro}onChange={operacion}placeholder="Solo numeros"
       />
       <div className="contenedorDeBotones">
-        {[0, 1, 2, 3, 4, 5, 6, 7, 8, "-", "+", "X", "%"].map((item, index) => (
+        {[, 1, 2, 3, 4, 5, 6, 7, 8,9, "-", "+", "X", "%"].map((item, index) => (
           <button key={index} className="botonDelCalculador"  onClick={valores}>
             {item}
           </button>
